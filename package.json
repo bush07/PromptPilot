@@ -2,7 +2,7 @@
   "name": "promptpilot",
   "version": "1.0.0",
   "private": true,
-  "description": "PromptPilot \u2014 AI chat workspace with prompt library, one-click exports, and polished UX.",
+  "description": "PromptPilot — AI chat workspace with prompt library, one-click exports, and polished UX.",
   "author": "Bushra Inamdar <maazansari25667@gmail.com>",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "@clerk/nextjs": "^6.32.0",
     "axios": "^1.8.3",
     "mongoose": "^8.12.1",
-    "next": "^15.2.3",
+    "next": "^15.5.27",
     "openai": "^4.87.3",
     "prismjs": "^1.30.0",
     "react": "^19.0.0",
