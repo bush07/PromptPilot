@@ -142,26 +142,3 @@ The `OPENAI_BASE_URL` and `OPENAI_MODEL` values above are an example for Google'
 
 **Security:** Never commit `.env.local`, API keys, database credentials, or Clerk secret keys. The project `.gitignore` should exclude `.env*`. If a credential has been exposed, revoke or rotate it in the provider dashboard.
 
-## 📜 Available Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Start the local development server |
-| `npm run build` | Build the production application |
-| `npm run start` | Run the production build |
-| `npm run lint` | Run ESLint |
-
-## 🚧 Current Limitations
-
-- The Saved Prompts page currently displays example templates; saving prompts to a database is not implemented.
-- Analytics visuals in the concept showcase are illustrative and do not indicate a connected analytics backend.
-- AI responses are returned as complete responses rather than token-by-token streamed output.
-- The app requires valid Clerk, MongoDB, and AI provider configuration for the corresponding features to work.
-
-## ☁️ Deployment
-
-The app can be deployed to a Node.js-compatible hosting platform such as Vercel. Configure the same environment variables in the hosting provider's project settings before deploying.
-
-## 📄 License
-
-The project metadata references the MIT License. If you distribute this project, include the intended `LICENSE` file in the repository and preserve any original attribution that applies.
