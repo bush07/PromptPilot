@@ -1,0 +1,6 @@
+'use client';
+import Link from 'next/link';
+export default function SavedPromptsPage() {
+ const items=[{title:'Lead generation email',tag:'business',description:'A reusable prompt for writing concise outreach emails.'},{title:'Summarize a topic',tag:'productivity',description:'Extract the main ideas, takeaways, and action items.'}];
+ return <main className="app-shell"><section className="workspace" style={{maxWidth:850,minHeight:500,height:'auto',padding:28,display:'block'}}><Link href="/" style={{color:'#873cff',fontSize:12}}>← Back to PromptPilot</Link><h1 style={{fontSize:26,fontWeight:750,marginTop:20}}>Saved Prompts</h1><p style={{color:'var(--muted)',fontSize:13,marginTop:5}}>Quick access to prompts you reuse often.</p><div style={{display:'grid',gap:12,marginTop:25}}>{items.map(item=><article key={item.title} style={{padding:18,border:'1px solid var(--border)',borderRadius:12}}><span style={{fontSize:10,color:'#8039f8'}}>{item.tag}</span><h2 style={{fontWeight:700,marginTop:10}}>{item.title}</h2><p style={{fontSize:12,color:'var(--muted)',marginTop:6}}>{item.description}</p></article>)}</div><p style={{fontSize:11,color:'var(--muted)',marginTop:30}}>These are example templates. Saving prompts to a database is not implemented yet.</p></section></main>;
+}
