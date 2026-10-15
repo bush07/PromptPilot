@@ -142,3 +142,12 @@ The `OPENAI_BASE_URL` and `OPENAI_MODEL` values above are an example for Google'
 
 **Security:** Never commit `.env.local`, API keys, database credentials, or Clerk secret keys. The project `.gitignore` should exclude `.env*`. If a credential has been exposed, revoke or rotate it in the provider dashboard.
 
+👩‍💻 Author
+
+Bushra Inamdar
+
+Computer Engineering Graduate | Full-Stack Developer
+
+GitHub: @bush07
+
+Project Repository: PromptPilot
